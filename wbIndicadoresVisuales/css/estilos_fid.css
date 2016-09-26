@@ -1,0 +1,152 @@
+﻿@font-face {
+  font-family: 'Britanic';
+  src: url(../fonts/BRITANIC.TTF);
+}
+
+@font-face {
+  font-family: 'Astronau';
+  src: url(../fonts/ASTRONAU.TTF);
+}
+
+@font-face {
+  font-family: 'Arial Rounded';
+  src: url(../fonts/ARLRDBD.TTF);
+}
+body {
+    background-image: url(../images/FID.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:#464646;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.text-tipo-vuelo {
+    font-family: Britanic;
+    font-size: 7.5vw;
+    line-height: 113%;
+    font-weight: bold;
+    color: #b7cff6;
+    margin-left: 15%;
+}
+
+.tipo_vuelo {
+    display: block;
+    float: left;
+    width: 9.5vw;
+    height: 8.5vw;
+    margin-left: 3%;
+    margin-bottom: -4%;
+}
+
+.container-fluid {
+    margin-top: 0%;
+    padding-top:0;
+    top:0%;
+
+}
+
+.row.cabecera {
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+	font-size: 2.7vw;
+    font-weight: bold;
+    color: white;
+}
+
+.row.body_first {
+    padding-top: 0.29%;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+	font-size: 2.6vw;
+    font-weight: bold;
+    color: white;
+    vertical-align:middle;
+    line-height: 160%;
+}
+.row.body_large {
+    padding-top: 0.0%;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+	font-size: 2.6vw;
+    font-weight: bold;
+    color: white;
+    vertical-align:middle;
+    line-height: 160%;
+}
+.nestun {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.aerolinea_logo {
+    width: auto;
+    height: auto;
+    min-height: 4.59vw;
+    min-width: 15.7vw;
+    max-height: 4.58vw;
+    max-width: 15.7vw;
+    float: right;
+    margin-left: 0%;
+    padding-left: 0%;
+}
+
+.footer {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    height: 18%;
+    z-index: 3;
+}
+
+.footer img {
+    width: 6vw;
+    height: 6vw;
+    bottom: 4%;
+    left: 20%;
+    position: absolute;
+}
+
+.footer .label-wheater {
+    font-family: 'Britanic';
+    font-size: 2.5vw;
+    bottom: 4%;
+    left: 24%;
+    color: #00084A;
+    position: absolute;
+}
+
+.footer .hora {
+    color: #00084A;
+    font-family: 'Astronau';
+    font-size: 9vw;
+    position: absolute;
+    bottom: -17%;
+    left: 0.4%;
+}
+
+.marquee {
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    height: 12%;
+    bottom: 0px;
+    font-size: 6.5vw;
+    float: right;
+    width: 85%;
+    overflow: hidden;
+    color: white;
+    position: absolute; /*or fixed*/
+    right: 0px;
+    font-weight: bold;
+    line-height: 100%;
+}
+
+.img_footer {
+    position: absolute;
+    right: 0%;
+    width: 100%;
+    bottom: 0%;
+    overflow: hidden;
+    vertical-align: middle;
+    height: 12.7%;
+    z-index: 2;
+}

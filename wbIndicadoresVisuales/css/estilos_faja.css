@@ -1,0 +1,309 @@
+﻿@font-face {
+  font-family: 'Britanic';
+  src: url(../fonts/BRITANIC.TTF);
+}
+
+@font-face {
+  font-family: 'Astronau';
+  src: url(../fonts/ASTRONAU.TTF);
+}
+
+@font-face {
+  font-family: 'Arial Rounded';
+  src: url(../fonts/ARLRDBD.TTF);
+}
+
+#fullPage {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+}
+
+body {
+    background-image: url(../images/BID1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.text-tipo-vuelo {
+    font-family: Britanic;
+    font-size: 8vw;
+    line-height: 100%;
+    position: absolute;
+    margin-top: 1%;
+    color: #b7cff6;
+    margin-left: 1%;
+    padding: 0;
+    cursor: pointer;
+}
+
+.faja {
+    font-family: Britanic;
+    font-size: 11vw;
+    line-height: 65%;
+    color: #70FEF3;
+    position: absolute;
+    margin-left: 17%;
+    margin-top: 1.5%;
+    width: 12.4%;
+    text-align: center;
+}
+
+.logo_aerolinea {
+    position: absolute;
+    margin-left: 1.3%;
+    margin-top: 19.55%;
+    width: 51.5%;
+    height: 33.3%;
+}
+
+.default_class {
+    position: absolute;
+    margin-top: 10.5%;
+    width: 100%;
+    height: 66.5%;
+    z-index: 4;
+}
+
+.logo_aerolinea2 {
+    position: absolute;
+    margin-left: 1.3%;
+    margin-top: 35.3%;
+    width: 51.5%;
+    height: 33.3%;
+}
+
+.vuelo {
+    color: #00084A;
+    font-family: 'Britanic';
+    font-size: 6.8vw;
+    position: absolute;
+    line-height: 80%;
+    margin-left: 62.3%;
+    margin-top: 20.3%;
+    width: 36%;
+    display: table;
+}
+.desc {
+    color: #CACAC8;
+    display: table-cell;
+}
+
+.numero {
+    color: #FEFEFE;
+    display: table-cell;
+    text-align: right;
+}
+
+.vuelo2 {
+    color: #00084A;
+    font-family: 'Britanic';
+    font-size: 6.8vw;
+    position: absolute;
+    line-height: 80%;
+    margin-left: 62.3%;
+    margin-top: 36.5%;
+    width: 36%;
+    display: table;
+}
+
+.origen {
+    color: #FEFEFE;
+    font-family: 'Britanic';
+    font-size: 5.8vw;
+    position: absolute;
+    line-height: 80%;
+    margin-left: 54.8%;
+    margin-top: 31.5%;
+    width: 43%;
+    text-align: center;
+}
+
+.origen2 {
+    color: #FEFEFE;
+    font-family: 'Britanic';
+    font-size: 5.8vw;
+    position: absolute;
+    line-height: 80%;
+    margin-left: 54.8%;
+    margin-top: 47.7%;
+    width: 43%;
+    text-align: center;
+}
+
+.hora {
+    color: #00084A;
+    font-family: 'Astronau';
+    font-size: 9vw;
+    position: absolute;
+    line-height: 100%;
+    margin-left: 1%;
+    bottom: 1.2%;
+    z-index: 3;
+}
+
+.pbClima {
+    width: 6vw;
+    height: 6vw;
+    margin-left: 20%;
+    position: absolute;
+    bottom: 2%;
+    z-index: 3;
+}
+
+.label-wheater {
+    font-family: 'Britanic';
+    font-size: 2.5vw;
+    margin-left: 24%;
+    bottom: 3%;
+    position: absolute;
+    color: #00084A;
+    z-index: 3;
+}
+
+.marquee {
+    font-family: 'Arial Rounded';
+    color: #70FEF3;
+    font-size: 7vw;
+    position: absolute;
+    right: 0%;
+    width: 73%;
+    bottom: 0%;
+    overflow: hidden;
+    vertical-align: middle;
+    text-align: left;
+    vertical-align: middle;
+    line-height: 91%;
+    height: 15%;
+    z-index: 1;
+}
+
+.marquee span {
+    vertical-align: middle;
+}
+
+.cad1{
+	width: 7%;
+	height: 9%;
+	position: absolute;
+	left: 12%;
+	top: 6%;
+	visibility: hidden;
+
+	-webkit-animation-name: moviendo_cad;
+	-moz-animation-name: moviendo_cad;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-duration: 5s;
+	-moz-animation-duration: 5s;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+
+}
+
+.cad2{
+	width: 4%;
+	height: 14%;
+	position: absolute;
+	left: 6%;
+	top: 1%;
+	visibility: hidden;
+
+	-webkit-animation-name: moviendo_cad;
+	-moz-animation-name: moviendo_cad;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-duration: 5s;
+	-moz-animation-duration: 5s;
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+}
+
+.cad3{
+	width: 7%;
+	height: 11%;
+	position: absolute;
+	left: 12%;
+	top: 4.7%;
+	visibility: hidden;
+
+	-webkit-animation-name: moviendo_cad;
+	-moz-animation-name: moviendo_cad;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-duration: 5s;
+	-moz-animation-duration: 5s;
+	-webkit-animation-delay: 1.61s;
+	-moz-animation-delay: 1.61s;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+}
+
+.cad4{
+	width: 7%;
+	height: 8%;
+	position: absolute;
+	left: 18%;
+	top: 7%;
+	visibility: hidden;
+
+	-webkit-animation-name: moviendo_cad;
+	-moz-animation-name: moviendo_cad;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-duration: 5s;
+	-moz-animation-duration: 5s;
+	-webkit-animation-delay: 2.6s;
+	-moz-animation-delay: 2.6s;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+}
+
+.img_footer {
+    position: absolute;
+    right: 0%;
+    width: 100%;
+    bottom: 0%;
+    overflow: hidden;
+    vertical-align: middle;
+    height: 15.1%;
+    z-index: 2;
+}
+
+.boton_test {
+    z-index: -1;
+}
+
+@keyframes moviendo_cad {
+	0% {
+		left: 75%;
+		visibility: visible;
+		/*transform: rotateY(90deg);*/
+        opacity: 0.0;
+	}
+
+	20% {
+        opacity: 1.0;
+		/*transform: rotateY(0deg);*/
+	}
+
+	80% {
+		/*transform: rotateY(0deg);*/
+        opacity: 1.0;
+	}
+
+	100% {
+		left: 37%;
+        opacity: 0.0;
+		/*transform: rotateY(90deg);*/
+	}
+}

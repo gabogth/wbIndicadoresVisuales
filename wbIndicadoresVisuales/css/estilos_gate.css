@@ -1,0 +1,168 @@
+﻿@font-face {
+  font-family: 'Britanic';
+  src: url(../fonts/BRITANIC.TTF);
+}
+
+@font-face {
+  font-family: 'Astronau';
+  src: url(../fonts/ASTRONAU.TTF);
+}
+
+@font-face {
+  font-family: 'Arial Rounded';
+  src: url(../fonts/ARLRDBD.TTF);
+}
+
+body {
+    background-image: url(../images/GID.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.text-tipo-vuelo {
+    font-family: Britanic;
+    font-size: 4vw;
+    line-height: 100%;
+    position: absolute;
+    margin-top: -0.5%;
+    float: left;
+    color: #b7cff6;
+    margin-left: 4%;
+    padding: 0;
+    width: 12.6%;
+    text-align: center;
+}
+
+.puerta {
+    font-family: Britanic;
+    font-size: 8vw;
+    line-height: 65%;
+    color: #70FEF3;
+    position: absolute;
+    margin-left: 4%;
+    margin-top: 3.8%;
+    float: left;
+    width: 12.4%;
+    text-align: center;
+}
+
+.hora {
+    color: #00084A;
+    font-family: 'Astronau';
+    font-size: 10vw;
+    float: left;
+    position: absolute;
+    line-height: 100%;
+    margin-left: 38%;
+    margin-top: -0.5%;
+}
+
+.pbClima {
+    width: 10vw;
+    height: 9vw;
+    float: left;
+    margin-left: 61%;
+    margin-top: 0.6%;
+    position: absolute;
+}
+
+.label-wheater {
+    font-family: 'Britanic';
+    font-size: 3vw;
+    margin-left: 68%;
+    margin-top: 5%;
+    position: absolute;
+    color: #00084A;
+}
+
+.cabecera_destino {
+    font-family: 'Britanic';
+    font-size: 9vw;
+    padding: 0px;
+    margin-left: 0%;
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+    position: absolute;
+    color: #EFF000;
+    line-height: 100%;
+}
+.vuelo {
+    color: #00084A;
+    font-family: 'Britanic';
+    font-size: 6.8vw;
+    position: absolute;
+    line-height: 80%;
+    margin-left: 62.3%;
+    margin-top: 23.9%;
+    width: 36%;
+    display: table;
+}
+    .vuelo .desc {
+        color: #CACAC8;
+        display: table-cell;
+    }
+
+    .vuelo .numero {
+        color: #FEFEFE;
+        display: table-cell;
+        text-align: right;
+    }
+
+.hora_prog {
+    color: #00084A;
+    font-family: 'Britanic';
+    font-size: 6.8vw;
+    position: absolute;
+    line-height: 80%;
+    margin-left: 62.3%;
+    margin-top: 34.3%;
+    width: 35.5%;
+    display: table;
+}
+    .hora_prog .desc_hora {
+        color: #CACAC8;
+        display: table-cell;
+    }
+
+    .hora_prog .hora_now {
+        color: #FEFEFE;
+        display: table-cell;
+        text-align: right;
+    }
+
+.marquee {
+    font-family: 'Arial Rounded';
+    color: #70FEF3;
+    font-size: 10vw;
+    position: absolute;
+    line-height: 80%;
+    margin-left: 0%;
+    width: 100%;
+    bottom: 4%;
+    overflow: hidden;
+    vertical-align: middle;
+    text-align: center;
+    height: 15%;
+}
+
+.logo_aerolinea {
+    position: absolute;
+    margin-left: 1.3%;
+    margin-top: 22.8%;
+    width: 51.5%;
+    height: 33.3%;
+}
+
+.window_blank {
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 10.6%;
+    width: 100%;
+    height: 60%;
+    display: none;
+}

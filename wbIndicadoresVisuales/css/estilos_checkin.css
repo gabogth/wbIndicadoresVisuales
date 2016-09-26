@@ -1,0 +1,102 @@
+﻿@font-face {
+  font-family: 'Britanic';
+  src: url(../fonts/BRITANIC.TTF);
+}
+
+@font-face {
+  font-family: 'Astronau';
+  src: url(../fonts/ASTRONAU.TTF);
+}
+body {
+    background-image: url(../images/CHECK_IN.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.text-tipo-vuelo {
+    font-family: Britanic;
+    font-size: 8.5vw;
+    line-height: 97%;
+    color: #b7cff6;
+    margin-left: 22%;
+    position: absolute;
+    width: 45%;
+    text-align: center;
+}
+
+.hora {
+    color: #00EAFE;
+    font-family: 'Astronau';
+    font-size: 8vw;
+    float: left;
+    line-height: 94%;
+    margin-left: 2%;
+}
+
+.footer {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    height: 11.5%;
+    margin-left: 1%;
+    z-index: 5;
+}
+
+.footer img {
+    width: 6vw;
+    height: 6vw;
+    bottom: 20%;
+    margin-left: 0%;
+    position: absolute;
+}
+
+.footer .label-wheater {
+    font-family: 'Britanic';
+    font-size: 2.5vw;
+    bottom: 18%;
+    left: 5%;
+    position: absolute;
+    right: 0%;
+    position: absolute;
+    color: #00084A;
+}
+
+.marquee {
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    height: 12%;
+    bottom: 0px;
+    font-size: 6.5vw;
+    float: right;
+    width: 90%;
+    overflow: hidden;
+    color: white;
+    position: absolute; /*or fixed*/
+    right: 0px;
+    font-weight: bold;
+    line-height: 100%;
+}
+
+.logo_aerolinea {
+    position: absolute;
+    width: 100%;
+    margin-top: 8.7%;
+    height: 72%;
+    left: 0;
+    z-index: 7;
+}
+
+.img_footer {
+    position: absolute;
+    left: 0%;
+    width: 16%;
+    bottom: 0%;
+    overflow: hidden;
+    vertical-align: middle;
+    height: 12.5%;
+    z-index: 2;
+}
